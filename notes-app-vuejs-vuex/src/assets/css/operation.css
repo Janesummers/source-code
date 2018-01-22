@@ -1,0 +1,78 @@
+.left-control{
+  width: 300px;
+  height: 100%;
+  background: #F5F5F5;
+  position: relative;
+  box-shadow: 0 0 10px rgba(153, 148, 148, 0.5);
+  padding-top: 30px;
+  float: left;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.left-control>.title{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: center;
+  color: #939191;
+}
+.left-control .choose_btns{
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.left-control .choose_btns li{
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 40px;
+  background: #dbdbdb;
+  font-size: 16px;
+  cursor: pointer;
+  color: #7c7c7c;
+  position: relative;
+}
+.left-control .choose_btns li .num{
+      position: absolute;
+    background: #f96c6c;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    font-size: 12px;
+    top: 7px;
+    right: 26px;
+    color: #fff;
+    transition: 0.5s;
+}
+.left-control .choose_btns li .num2{
+      width: 30px;
+    border-radius: 8px;
+    right: 13px;
+}
+.left-control .choose_btns li.active{
+      background: #908e8e;
+    color: #fff;
+    font-weight: 700;
+}
+.left-control .add{
+      position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    background: #dbdbdb;
+    color: #6a6666;
+    cursor: pointer;
+    box-shadow: 0 1px 10px rgba(37, 35, 35, 0.5);
+    transition: 0.5s;
+}
+.left-control .add:hover{
+  background: #ccc;
+}

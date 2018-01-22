@@ -1,0 +1,27 @@
+body{
+ background: #ececec;
+}
+#app input[class=title]{
+  padding: 10px 20px 0px 20px;
+    background: #ececec;
+    width: calc(100% - 300px);
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 50px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#app textarea{
+  width: calc(100% - 300px);
+  height: calc(100% - 50px);
+  display: block;
+  padding:10px 20px;
+  font-size: 16px;
+  color: #5b5858;
+      word-wrap: break-word;
+    word-break: break-all;
+    background: #ececec;
+}

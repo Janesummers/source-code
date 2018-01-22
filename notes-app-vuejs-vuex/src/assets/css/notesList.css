@@ -1,0 +1,90 @@
+.notesList{
+  width: 100%;
+  overflow: scroll;
+  height: calc(100% - 90px);
+}
+.notesList li{
+      width: calc(100% - 60px);
+    line-height: 20px;
+    font-size: 14px;
+    background: #dbdbdb;
+    color: #7c7c7c;
+    cursor: pointer;
+    border-top: 1px solid #c9c9c9;
+    position: relative;
+}
+.notesList li.active{
+  background: #908e8e;
+    color: #fff;
+}
+.notesList li .content_box{
+  float: left;
+}
+.notesList li .title{
+  float: left;
+  margin-left: 10px;
+  height: 26px;
+  line-height: 26px;
+  width: 230px;
+  word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.notesList li .time{
+  float: left;
+  margin-left: 10px;
+  height: 26px;
+  line-height: 26px;
+  width: 230px;
+}
+.notesList li .partial_content{
+      float: left;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 230px;
+    overflow: hidden;
+    margin-left: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    min-height: 20px;
+}
+.notesList li .option{
+  position: absolute;
+  right: -60px;
+  top: -1px;
+  width: 60px;
+  height: 101%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+      background: #dbdbdb;
+      float: left;
+      border-top: 1px solid #c9c9c9;
+}
+.notesList li.active .option{
+      background: #908e8e;
+}
+.notesList li .love,.notesList li .del{
+  color: #fff;
+      width: 25px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.notesList li .love.active{
+  color: #f96c6c;
+}
+.notesList li .del{
+  color: #a4a4a4;
+  transition: 0.3s;
+}
+.notesList li.active .del{
+  color: #fff;
+}
+.notesList li .del:hover{
+  color: #fff;
+}
