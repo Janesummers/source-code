@@ -1,0 +1,29 @@
+.nav{
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .my_headPortrait{
+  width: 34px;
+  height: 34px;
+  position: fixed;
+  top: 20px;
+}
+.nav .nav_list li{
+  margin-bottom: 30px;
+  color: #9F9F9F;
+}
+.nav .nav_list .iconfont{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.nav .nav_list li.router-link-active{
+  color: #0082E6;
+}
